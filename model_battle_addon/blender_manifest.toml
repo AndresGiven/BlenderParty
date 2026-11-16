@@ -1,0 +1,16 @@
+schema_version = "1.0.0"
+
+id = "model_battle"
+version = "0.1.0"
+name = "Model Battle"
+tagline = "Race your friends to model a prompt, then vote on the best"
+maintainer = "Your Name"
+type = "add-on"
+
+blender_version_min = "4.2.0"
+
+license = ["SPDX:GPL-3.0-or-later"]
+
+[permissions]
+network = "Connect to the Model Battle game server"
+files = "Export your model so it can be uploaded"
